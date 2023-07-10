@@ -38,7 +38,7 @@ const NestedObjectLabel = styled.div`
   display: ${props => (props.collapsed ? 'block' : 'none')};
   border-top: 0;
   color: ${props => (props.error ? colors.errorText : 'inherit')};
-  background-color: ${colors.textFieldBorder};
+  background-color: ${colors.checkerboardLight};
   padding: 13px;
   border-radius: 0 0 ${lengths.borderRadius} ${lengths.borderRadius};
 `;
